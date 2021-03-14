@@ -5,10 +5,10 @@ email = ["jackpotwin@lottery.com",
          "youarethewinner@lottery.com",
          "luckywinner@mymoney.com",
          "spinthewheel@flipkart.com",
-         "dealwinner@snapdeal.com"
-         "luckywinner@snapdeal.com"
-         "luckyjackpot@americanlottery.com"
-         "claimtheprize@lootolottery.com"
+         "dealwinner@snapdeal.com",
+         "luckywinner@snapdeal.com",
+         "luckyjackpot@americanlottery.com",
+         "claimtheprize@lootolottery.com",
          "youarelucky@mymoney.com"]
 
 hosts = {}
@@ -20,4 +20,4 @@ for i in email:
     else:
         hosts[host] += 1
 
-print(hosts)
+print(max(hosts,key=hosts.get))

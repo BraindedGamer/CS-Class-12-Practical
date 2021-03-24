@@ -1,4 +1,4 @@
-#Program to read the content of file line by line and write it to another file except for the lines contains „a‟ letter in it.
+ #Program to read the content of file line by line and write it to another file except for the lines contains „a‟ letter in it.
 
 f1 = open("See you again.txt","r")
 f2 = open("File2","w")
